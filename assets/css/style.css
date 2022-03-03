@@ -3,7 +3,7 @@ body {
   color: #717477;
   font-family: montserrat, sans-serif;
   line-height: 1.8;
-  font-size: 16px;
+  font-size: 18px;
 }
 img {
   max-width: 100%;
@@ -185,7 +185,7 @@ h3 {
 .navbar-area .main-nav {
   position: inherit;
   background: #fff;
-  border-bottom: 2px solid #fff9e6;
+  border-bottom: 2px solid #cecdcc;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -681,7 +681,11 @@ h3 {
 }
 .main-banner {
   position: relative;
-  height: 700px;
+  height: 980px;
+  background-image: url(../img/banner/banner.png);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-banner .banner-text {
   max-width: 100%;
@@ -1384,7 +1388,7 @@ h3 {
 .blog-section .blog-card .blog-text .post-info a p {
   position: absolute;
   left: 50px;
-  top: 8px;
+  top: -5px;
   font-size: 14px;
   color: #808291;
   margin-bottom: 0;
@@ -1590,8 +1594,6 @@ h3 {
 .footer-area {
   background: #000000;
   padding-top: 50px;
-  padding-left: 150px;
-  padding-right: 150px;
   
 
 }
@@ -1760,7 +1762,24 @@ h3 {
   color: #000;
 }
 .banner-style-two {
-  background: #0d3642;
+    background-image: url(../img/banner/banner.png);
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+.banner-style-contact {
+    background-image: url(../img/banner/conact-banner.png);
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+.banner-style-about {
+    background-image: url(../img/banner/about-banner.png);
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+.banner-style-blog {
+    background-image: url(../img/banner/blog-banner.png);
+    background-size: cover;
+     background-repeat: no-repeat;
 }
 .banner-style-two .banner-text h1 {
   color: #fff;
