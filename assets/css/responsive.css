@@ -70,18 +70,42 @@
   .main-banner {
     height: 100%;
   }
+  .main-banner-blog {
+    height: 100%;
+  }
+  .main-banner-blog .banner-text {
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 75px;
+  }
   .main-banner .banner-text {
     text-align: center;
     padding-top: 115px;
     padding-bottom: 75px;
   }
+  .main-banner-blog .banner-text h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
   .main-banner .banner-text h1 {
     font-size: 25px;
     margin-bottom: 25px;
   }
+  .main-banner-blog .banner-text p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
   .main-banner .banner-text p {
     font-size: 15px;
     margin-bottom: 30px;
+  }
+  .main-banner-blog .banner-image {
+    position: relative;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    top: inherit;
+    bottom: 40px;
   }
   .main-banner .banner-image {
     position: relative;
@@ -645,14 +669,27 @@
     left: 0;
     right: 0;
   }
+  .main-banner-blog {
+    height: 100%;
+    text-align: center;
+  }
   .main-banner {
     height: 100%;
     text-align: center;
+  }
+  .main-banner-blog .banner-text {
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 140px;
   }
   .main-banner .banner-text {
     margin: auto;
     padding-top: 150px;
     padding-bottom: 140px;
+  }
+  .main-banner-blog .banner-text h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
   }
   .main-banner .banner-text h1 {
     font-size: 45px;
@@ -964,13 +1001,29 @@
   .main-banner {
     height: 100%;
   }
+  .main-banner-blog {
+    height: 100%;
+  }
   .main-banner .banner-text {
    
     padding-top: 100px;
     padding-bottom: 100px;
   }
+  .main-banner-blog .banner-text {
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .main-banner-blog .banner-text h1 {
+    font-size: 50px;
+  }
   .main-banner .banner-text h1 {
     font-size: 50px;
+  }
+  .main-banner-blog .banner-image {
+    max-width: 340px;
+    right: 50px;
+    top: 100px;
   }
   .main-banner .banner-image {
     max-width: 340px;
