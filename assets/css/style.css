@@ -3,7 +3,7 @@ body {
   color: #717477;
   font-family: montserrat, sans-serif;
   line-height: 1.7;
-  font-size: 14px;
+  font-size: 15px;
 }
 img {
   max-width: 100%;
@@ -684,7 +684,7 @@ h3 {
   position: relative;
   height: 980px;
   background-image: url(../img/banner/banner.png);
-  
+  background-position: center center; 
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -694,6 +694,7 @@ h3 {
     background-image: url(../img/banner/blog-details.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center; 
   }
   .main-banner-blog .banner-text {
     max-width: 100%;
