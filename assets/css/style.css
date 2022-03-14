@@ -195,8 +195,9 @@ h3 {
   padding: 0;
 }
 .navbar-area .main-nav .navbar .navbar-brand {
+  margin-left: -50px;
   padding: 0;
-  top: -2px;
+  top: 0px;
   position: relative;
 }
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link {
