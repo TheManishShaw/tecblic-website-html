@@ -48,7 +48,8 @@ h6 {
 }
 h3 {
   font-size: 22px;
-  font-family: poppins, sans-serif;
+  font-weight: 700;
+  font-family: montserrat, sans-serif;
   color: #0f2137;
 }
 .pt-100 {
