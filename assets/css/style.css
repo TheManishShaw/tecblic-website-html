@@ -1368,6 +1368,8 @@ h3 {
   overflow: hidden;
 }
 .blog-section .blog-card .blog-img img {
+  height: 250px;
+  width: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
