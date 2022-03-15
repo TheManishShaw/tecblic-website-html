@@ -757,10 +757,12 @@ h3 {
 }
 .video-section {
     
-    background-image: url(../img/banner/bg.svg);
+    background-image: url(../img/banner/bg.png);
+    background-repeat: no-repeat;
  background-size: cover;
- background-repeat: no-repeat;
-  position: relative;
+ background-position: center center;
+ background-size: 100% 500px;
+
  
 }
 .video-section::before {
