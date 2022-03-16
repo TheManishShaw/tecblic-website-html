@@ -2389,6 +2389,7 @@ h3 {
   color: #1b1b1b;
 }
 .blog-details-area .blog-search {
+  border-radius: 10px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   padding: 20px;
@@ -2444,6 +2445,7 @@ h3 {
   color: #fff;
 }
 .blog-details-area .recent-blog {
+  border-radius: 10px;
   padding: 20px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -2464,7 +2466,7 @@ h3 {
   top: 0;
   left: 0;
   width: 90px;
-  height: 90px;
+  height: 65px;
   border-radius: 5px;
   object-fit: cover;
   object-position: 70% 30%;
