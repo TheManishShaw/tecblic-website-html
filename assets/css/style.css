@@ -48,8 +48,7 @@ h6 {
 }
 h3 {
   font-size: 22px;
-  font-weight: 700;
-  font-family: montserrat, sans-serif;
+  font-family: poppins, sans-serif;
   color: #0f2137;
 }
 .pt-100 {
@@ -73,8 +72,8 @@ h3 {
     linear,
     left top,
     right top,
-    from(#ff7c00),
-    to(#fe6219)
+    from(#1d1c1c),
+    to(#000000)
   );
   background: linear-gradient(90deg, #ff7c00 0%, #fe6219 100%);
   padding: 16px 40px;
@@ -93,6 +92,11 @@ h3 {
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+.custom_cls{
+  width: 100px;
+color: #000;
+margin-top: 5px;
 }
 
 .theme-button .default-btn:hover::before {
@@ -197,7 +201,7 @@ h3 {
 .navbar-area .main-nav .navbar .navbar-brand {
   margin-left: -50px;
   padding: 0;
-  top: 0px;
+  top: -2px;
   position: relative;
 }
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link {
@@ -235,7 +239,8 @@ h3 {
   border-bottom: 1px dashed #000;
   padding: 10px 15px;
   position: relative;
-
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .navbar-area
   .main-nav
@@ -296,7 +301,8 @@ h3 {
   top: 50%;
   left: 0;
   right: 0;
-
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .navbar-area
   .main-nav
@@ -682,7 +688,7 @@ h3 {
 }
 .main-banner {
   position: relative;
-  height: 700px;
+  height: 750px;
   background-image: url(../img/banner/banner.png);
   background-position: center center; 
   background-repeat: no-repeat;
@@ -732,11 +738,11 @@ h3 {
   position: relative;
 }
 .main-banner .banner-text .theme-button .video-btn:hover {
-  color: #fe6417;
+  color: #c0c0c0;
 }
 .main-banner .banner-text .theme-button .video-btn i {
-  color: #fe6417;
-  border: 1px solid #fe6417;
+  color: #e9e9e9;
+  border: 1px solid #494949;
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -756,11 +762,9 @@ h3 {
 .video-section {
     
     background-image: url(../img/banner/bg.png);
-    background-repeat: no-repeat;
  background-size: cover;
- background-position: center center;
- background-size: 100% 500px;
-
+ background-repeat: no-repeat;
+  position: relative;
  
 }
 .video-section::before {
@@ -770,7 +774,7 @@ h3 {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  height: 370px;
+  height: 100%;
   top: 0;
   left: 0;
 }
@@ -1351,6 +1355,7 @@ h3 {
   margin-bottom: 0;
 }
 .blog-section .blog-card {
+  height: 90%;
   -webkit-box-shadow: 0 2px 25px 0 rgba(12, 0, 46, 0.1);
   box-shadow: 0 2px 25px 0 rgba(12, 0, 46, 0.1);
   margin-bottom: 30px;
@@ -1368,10 +1373,10 @@ h3 {
   overflow: hidden;
 }
 .blog-section .blog-card .blog-img img {
-  object-position: 70% 30%;
-  object-fit: cover;
-  height: 250px;
   width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 70% 30%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1881,7 +1886,7 @@ h3 {
   background-repeat: no-repeat;
   position: relative;
   border-radius: 10px;
-  height: 350px;
+  height: 400px;
   padding-top: 200px;
   padding-bottom: 200px;
   z-index: 0;
@@ -2170,7 +2175,7 @@ h3 {
 }
 .blog-title .title-text h2 {
   color: #fff;
-  font-size: 60px;
+  font-size: 65px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -2375,7 +2380,7 @@ h3 {
   font-size: 16px;
   font-family: poppins, sans-serif;
   font-weight: 600;
-  background: #000000;
+  background: #ff7c00;
   color: #fff;
   padding: 15px 40px;
   margin-top: 10px;
@@ -2386,7 +2391,7 @@ h3 {
 .blog-details-area .blog-description .blog-comment .default-btn:hover {
   background: #fff;
   border: 1px dashed #000000;
-  color: #1b1b1b;
+  color: #000000;
 }
 .blog-details-area .blog-search {
   border-radius: 10px;
@@ -2466,10 +2471,8 @@ h3 {
   top: 0;
   left: 0;
   width: 90px;
-  height: 65px;
+  height: 70px;
   border-radius: 5px;
-  object-fit: cover;
-  object-position: 70% 30%;
 }
 .blog-details-area .recent-blog .recent-post h3 {
   margin-bottom: 0;
@@ -2526,7 +2529,7 @@ h3 {
 .blog-details-area .blog-category ul li a {
   padding: 15px 20px;
   display: block;
-  border-left: 2px solid #1a1a1a;
+  border-left: 2px solid #000000;
   position: relative;
   border-bottom: 1px dashed #ddd;
   font-size: 18px;
@@ -2638,7 +2641,7 @@ h3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 .contact-area .contact-box .contact-card {
-  border: 1px solid #ff7b01;
+  border: 1px solid #000000;
   position: relative;
   padding: 20px;
 }
@@ -2646,7 +2649,7 @@ h3 {
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  border: 1px solid #ff7b01;
+  border: 1px solid #000000;
   display: inline-block;
   color: #000;
   text-align: center;
