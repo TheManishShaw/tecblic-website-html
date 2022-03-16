@@ -1368,6 +1368,8 @@ h3 {
   overflow: hidden;
 }
 .blog-section .blog-card .blog-img img {
+  object-position: 70% 30%;
+  object-fit: cover;
   height: 250px;
   width: 100%;
   -webkit-transition: 0.5s;
@@ -2373,7 +2375,7 @@ h3 {
   font-size: 16px;
   font-family: poppins, sans-serif;
   font-weight: 600;
-  background: #ff7c00;
+  background: #000000;
   color: #fff;
   padding: 15px 40px;
   margin-top: 10px;
@@ -2383,8 +2385,8 @@ h3 {
 }
 .blog-details-area .blog-description .blog-comment .default-btn:hover {
   background: #fff;
-  border: 1px dashed #ff7c00;
-  color: #ff7c00;
+  border: 1px dashed #000000;
+  color: #1b1b1b;
 }
 .blog-details-area .blog-search {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -2396,7 +2398,7 @@ h3 {
   position: relative;
 }
 .blog-details-area .blog-search form input {
-  border: 1px solid #fe6a12;
+  border: 1px solid #000000;
   padding: 10px 20px;
   width: 100%;
 }
@@ -2425,7 +2427,7 @@ h3 {
 }
 .blog-details-area .blog-search form button {
   position: absolute;
-  background: #fe6318;
+  background: #000000;
   text-align: center;
   right: 0;
   top: 0;
@@ -2464,6 +2466,8 @@ h3 {
   width: 90px;
   height: 90px;
   border-radius: 5px;
+  object-fit: cover;
+  object-position: 70% 30%;
 }
 .blog-details-area .recent-blog .recent-post h3 {
   margin-bottom: 0;
@@ -2478,7 +2482,7 @@ h3 {
   line-height: 18px;
 }
 .blog-details-area .recent-blog .recent-post h3 a:hover {
-  color: #ff7209;
+  color: #000000;
 }
 .blog-details-area .recent-blog .recent-post ul {
   padding-left: 110px;
@@ -2486,7 +2490,7 @@ h3 {
 }
 .blog-details-area .recent-blog .recent-post ul li {
   display: inline-block;
-  color: #ff7209;
+  color: #000000;
   font-size: 14px;
   font-family: poppins, sans-serif;
   margin-right: 10px;
@@ -2520,7 +2524,7 @@ h3 {
 .blog-details-area .blog-category ul li a {
   padding: 15px 20px;
   display: block;
-  border-left: 2px solid #ff7209;
+  border-left: 2px solid #1a1a1a;
   position: relative;
   border-bottom: 1px dashed #ddd;
   font-size: 18px;
@@ -2535,7 +2539,7 @@ h3 {
   font-size: 25px;
 }
 .blog-details-area .blog-category ul li a:hover {
-  background: #fe6219;
+  background: #000000;
   color: #fff;
 }
 .blog-details-area .photo-gallery {
@@ -2577,7 +2581,7 @@ h3 {
   text-align: center;
 }
 .blog-details-area .tags a:hover {
-  background: #fe6219;
+  background: #000000;
   color: #fff;
 }
 .contact-title {
