@@ -1074,6 +1074,9 @@
   .blog-section .blog-card .blog-text .post-info .blog-btn {
     top: 7px;
   }
+  .blog-section .blog-card .blog-text .cus_blog {
+    bottom: -25px;
+  }
   .banner-style-two .banner-image img {
     width: 100%;
   }

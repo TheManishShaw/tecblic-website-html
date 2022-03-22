@@ -1416,6 +1416,7 @@ margin-top: 5px;
 .blog-section .blog-card .blog-text .post-info {
   position: relative;
 }
+
 .blog-section .blog-card .blog-text .post-info img {
   position: absolute;
 }
@@ -2473,6 +2474,7 @@ margin-top: 5px;
   width: 90px;
   height: 70px;
   border-radius: 5px;
+  object-fit: cover;
 }
 .blog-details-area .recent-blog .recent-post h3 {
   margin-bottom: 0;
