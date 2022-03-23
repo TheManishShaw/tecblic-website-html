@@ -96,7 +96,7 @@
     margin-bottom: 30px;
   }
   .banner-text img{
-    margin-top: 70px;
+    margin-top: 20px;
   }
   .blog-description .article-info{
     margin-top: 10px;
@@ -125,7 +125,7 @@
     font-weight: 700;
   }
   .blog-details-area .social-icons{
-    margin-top: -30px;
+    margin-top: -40px;
     font-size: 12px;
     text-align: center;
     display: flex;
@@ -600,6 +600,9 @@
   .blog-details-area .blog-description .article-title {
     font-size: 20px;
     line-height: 1.4;
+  }
+  .blog-description .article-title {
+    margin-top: 80px;
   }
   .blog-details-area .blog-description .blog-comment {
     padding: 20px;
