@@ -48,7 +48,7 @@ h6 {
 }
 h3 {
   font-size: 22px;
-  font-family: poppins, sans-serif;
+  font-family: montserrat, sans-serif;
   color: #0f2137;
 }
 .pt-100 {
@@ -758,6 +758,70 @@ margin-top: 5px;
   border-radius: 50px;
   -webkit-box-shadow: 0 2px 20px 0 rgba(12, 0, 46, 0.15);
   box-shadow: 0 2px 20px 0 rgba(12, 0, 46, 0.15);
+}
+.blog-description .article-info{
+  margin-top: 10px;
+}
+.blog-description .article-info img{
+  width: 60px;
+  height: 60px;
+ 
+}
+.blog-description .article-info .author{
+  margin-top: -50px;
+  margin-left: 70px;
+
+}
+.blog-description .article-info .auth-name{
+  margin-left: 70px;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+}
+.blog-description .article-info .published{
+  margin-top: -42px;
+  margin-left: 140px;
+}
+.blog-description .article-info .published-date{
+  margin-left: 140px;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+}
+.blog-details-area .social-icons{
+  margin-top: -120px;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  float: right;
+  vertical-align: middle;
+  padding-top: 20px;
+ 
+ 
+}
+.blog-details-area .social-icons .icons{
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.blog-details-area .social-icons .icons img{
+  align-self: center;
+  height: 30px;
+  margin-left: -20px;
+  margin-bottom: 10px;
+  float: center;
+  align-items: center;
+  padding: 1px;
+  
+}
+.blog-details-area .social-icons .icons .icon-image{
+  padding-bottom: 10px;
+}
+.blog-details-area .social-icons .icons a{
+margin-top: 50PX;
+}
+.blog-description .article-title{
+  margin-top: 30px;
 }
 .video-section {
     
@@ -2257,7 +2321,7 @@ margin-top: 5px;
   margin-bottom: 25px;
 }
 .blog-details-area .blog-description p {
-  font-family: poppins, sans-serif;
+  font-family: montserrat, sans-serif;
   margin-bottom: 0px;
 }
 .blog-details-area .blog-description .article-bottom-img {
