@@ -688,7 +688,7 @@ margin-top: 5px;
 }
 .main-banner {
   position: relative;
-  height: 750px;
+  height: 80vh;
   background-image: url(../img/banner/banner.png);
   background-position: center center; 
   background-repeat: no-repeat;
