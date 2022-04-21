@@ -98,9 +98,9 @@ a.meanmenu-reveal {
   background: #252525;
   background: rgba(255, 255, 255, 0.1);
 }
-.mean-container .mean-nav ul li a.mean-expand {
-  margin-top: 3px;
-  width: 100%;
+.mean-container .mean-nav ul li .mean-expand {
+  margin-top: 0px;
+ 
   height: 24px;
   padding: 12px !important;
   text-align: right;

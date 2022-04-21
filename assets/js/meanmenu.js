@@ -5,7 +5,7 @@
       meanMenuTarget: jQuery(this),
       meanMenuContainer: ".mobile-nav",
       meanMenuClose: "X",
-      meanMenuCloseSize: "18px",
+      meanMenuCloseSize: "22px",
       meanMenuOpen: "<span /><span /><span />",
       meanRevealPosition: "right",
       meanRevealPositionDistance: "0",
@@ -116,11 +116,11 @@
                         jQuery(this, "li:first")
                           .parent()
                           .append(
-                            '<a class="mean-expand" href="#" style="font-size: ' +
+                            '<span class="mean-expand" style="font-size: ' +
                               i +
                               '">' +
                               y +
-                              "</a>"
+                              "</span>"
                           );
                     }),
                     jQuery(".mean-expand").on("click", function (e) {
